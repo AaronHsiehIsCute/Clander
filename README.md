@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DateRangePicker 元件
 
 ## 簡介
