@@ -1,0 +1,72 @@
+body {
+  font-family: "Arial";
+}
+
+.date-picker {
+  width: 350px;
+  height: 240px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+.header {
+  height: 44px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.month-btn {
+  width: 44px;
+  height: 44px;
+  background-color: white;
+  border: none;
+  cursor: not-allowed;
+}
+
+.month-btn:hover {
+  background-color: #e6e6e6;
+}
+
+.days-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: 36px;
+}
+
+.day {
+  width: 50px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.day:hover {
+  background-color: #e6e6e6;
+}
+
+.day.today {
+  background-color: #ffff76;
+}
+
+.day.selected {
+  background-color: #006edc;
+  color: white;
+}
+
+.day.in-range {
+  background-color: #006edc;
+  color: white;
+}
+
+.day.non-current {
+  color: #757575;
+  cursor: not-allowed;
+}
