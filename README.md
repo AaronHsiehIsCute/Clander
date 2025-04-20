@@ -21,7 +21,9 @@ DateRangePicker 是一個用 React 製作的日期範圍選擇器，支援：
 ## 專案結構
 
 src/ components/ DateRangePicker.jsx // 主元件 
+
 DateRangePicker.test.jsx // 單元測試 
+
 styles/ DateRangePicker.css // 樣式
 
 ---
@@ -42,5 +44,4 @@ yarn add --dev @testing-library/react @testing-library/jest-dom (或者使用 ya
 ### 啟動專案
 npm start
 
-yarn start
-
+yarn start (或者使用 yarn)
