@@ -32,14 +32,11 @@ styles/ DateRangePicker.css // 樣式
 ### 安裝依賴
 
 npm install
-# 或者使用 yarn
-yarn install
+
+yarn install (或者使用 yarn)
 
 ### 啟動專案
 npm start
-# 或者使用 yarn
+
 yarn start
-=======
-# Clander
-Created with CodeSandbox
->>>>>>> 9a9e5bdfa78d0b63581a311cbe0249ee514ae771
+
