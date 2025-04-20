@@ -34,6 +34,11 @@ npm install
 
 yarn install (或者使用 yarn)
 
+### 安裝單元測試套件
+npm install --save-dev @testing-library/react @testing-library/jest-dom
+
+yarn add --dev @testing-library/react @testing-library/jest-dom (或者使用 yarn)
+
 ### 啟動專案
 npm start
 
